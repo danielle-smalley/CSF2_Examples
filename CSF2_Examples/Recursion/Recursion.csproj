@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{99934830-1493-4D54-9BC3-C222DD973FF4}</ProjectGuid>
+    <ProjectGuid>{167890F3-1848-4A8C-9C66-359075094426}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ValuevsReference</RootNamespace>
-    <AssemblyName>ValuevsReference</AssemblyName>
+    <RootNamespace>Recursion</RootNamespace>
+    <AssemblyName>Recursion</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ValuevsReference.ValuevsReference</StartupObject>
+    <StartupObject>Recursion.Recursion</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ValuevsReference.cs" />
+    <Compile Include="Recursion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
